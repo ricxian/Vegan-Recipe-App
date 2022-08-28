@@ -33,7 +33,7 @@ function generateHTML(results) {
             result.recipe.url
           }">View Recipe</a>
         </div>
-        <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
+        <p class="item-data">Calories: ${result.recipe.calories.toFixed(0)}</p>
         <p class="item-data">Diet label: ${
           result.recipe.dietLabels.length > 0
             ? result.recipe.dietLabels
